@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT villas (villa*)>
+
+<!ELEMENT villa (villaName, area, address, addressNumber, postalCode, telephone, mobilePhone, squareMeter, price, capacity, garage, wifi, pool, jacuzzi, spa, gym, rating, coords, villaDescr)>
+<!ATTLIST villa villaID CDATA #REQUIRED>
+<!ATTLIST villa username CDATA #REQUIRED>
+
+<!ELEMENT villaName (#PCDATA)>
+<!ELEMENT area (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT addressNumber (#PCDATA)>
+<!ELEMENT postalCode (#PCDATA)>
+<!ELEMENT telephone (#PCDATA)>
+<!ELEMENT mobilePhone (#PCDATA)>
+<!ELEMENT squareMeter (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT capacity (#PCDATA)>
+<!ELEMENT garage (#PCDATA)>
+<!ELEMENT wifi (#PCDATA)>
+<!ELEMENT pool (#PCDATA)>
+<!ELEMENT jacuzzi (#PCDATA)>
+<!ELEMENT spa (#PCDATA)>
+<!ELEMENT gym (#PCDATA)>
+<!ELEMENT rating (#PCDATA)>
+<!ELEMENT coords (#PCDATA)>
+<!ELEMENT villaDescr (#PCDATA)>
+
+

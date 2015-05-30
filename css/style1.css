@@ -1,0 +1,308 @@
+body{
+    font-family:Arial;
+    font-size:12px;
+    margin:0;
+}
+
+
+#header{
+    height:45px;
+    background-color: #003580;
+}
+
+.hypericon img{
+    margin:0 0 9px 45px;
+    width:150px;
+    height:48px;
+}
+
+#fullresult td{
+    padding-left: 50px;
+    padding-top: 10px;
+    font-size: 1.2em;
+}
+
+
+#autoresults{
+    margin: 10px 0 10px 100px;
+    float:left;
+    width: 300px;
+    height: 300px;
+    border: solid blue 1px;
+    border-radius: 5px;
+}
+
+#autoresults img{
+    margin: 10px 0 0 10px;
+    width: 280px;
+    height: 150px;
+}
+
+#autoresults p{
+    color: black; 
+    width:190px; 
+    margin:50px auto; 
+    font-size: 1.4em
+}
+
+
+#style1{
+    width:40px;
+    height:40px;
+    margin: 0 0 14px 100px;
+    cursor: pointer;  
+}
+
+#style2{
+    width:40px;
+    height:40px;
+    margin: 0 0 14px 50px;
+    cursor: pointer;  
+}
+
+.tabs{
+    width:auto;
+    height:300px;
+    position:absolute;
+    margin: 15px 0 0 600px;
+    color:white;
+}
+
+.tabs a{ text-decoration:none; color:white}
+
+.tabs a:hover{ background-color: blue;}
+
+.formsbutton{
+    font-size:1.2em;
+}
+
+.formsbutton a{
+    padding: 13px;	
+}
+
+.formsbutton a:hover{
+    background-color:#013e96;
+    border: thick;
+    border-radius:5px;
+}
+
+.userbutton{
+    font-size:1.2em;
+    color:white;
+    float: right;
+}
+
+.userbutton a{
+    padding:5px;
+    text-decoration:none;
+}
+
+.userbutton a:hover{
+    background-color:#013e96;
+    border: thick;
+    border-radius:5px;
+}
+
+#signupform{
+    margin: 30px 0 0 20px;
+}
+
+.imagesslide{
+    width:100%;
+    margin-top:45px;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:-2;
+    min-width: 900px;
+    min-width: 400px;
+}
+
+.search{
+    background-color:#FEBA02;
+    margin-top:390px;
+
+    left:0;
+    right:0;
+    height:170px;
+}
+
+.search h2{
+    padding-top:30px;
+    color: #e9e8e8;
+}
+
+.viewbutton{
+    width:20px;
+    height:20px;
+    margin: 15px 0 0 650px;
+}
+
+.ajaxresult{
+    position: absolute;
+    margin-left: 400px;
+    visibility: hidden;
+}
+
+.center{
+    width:600px;
+    margin:0 auto;
+}
+
+.results{
+
+    color:black;
+    clear:both;
+}
+
+.results h2{
+    margin:0 auto;
+    padding-top:50px;
+    width:160px;
+}
+
+.noofresults{
+    margin-right:10px;
+    float:right;
+}
+
+.backtotop{
+    float:right;
+    margin-right:10px;
+    clear: both;
+
+}
+
+
+.footer{
+    color: #e9e8e8;
+    height:45px;
+    background-color: #003580;
+    clear:both;
+}
+
+#footer_menu{
+    padding: 10px 0 0 520px;
+    position:absolute;
+    font-family:"Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+
+}
+
+#footer_menu p{ color:white;  }
+
+#footer_menu a{
+    text-decoration:none;
+    color:white;
+}
+
+#footer_menu a:hover{
+    color: #FEBA02;
+    font-weight:700;
+}
+
+
+#design{
+    padding-top:10px;
+    font-family:Georgia, "Bitstream Charter", serif;
+    float:right;
+    margin-right:200px;
+}
+
+
+.left{
+    float:left;
+}
+
+#right{
+    float:right;
+}
+
+#right h2{
+    color:#2828d2;
+}
+
+#right h3{
+    color:black;
+}
+
+#right p{ color:black; padding-right:10px;}
+
+.validate_false{
+    font-family: 'Segoe UI Symbol';
+    color: red;
+    font-size: 1.4em;
+    cursor: default;
+    padding-bottom: 23px;
+}
+
+
+
+
+
+.hellomess{
+    width:500px;
+    margin:0 auto;
+}
+
+.uploadvilla{
+    width: 50%;
+    height:auto;
+    margin: 20px auto 0 auto;
+    position:none;
+}
+
+#villaform{
+    width:550px;
+    border: 1px solid black;
+    border-radius:6px;
+    background-color:#FEBA02;
+}
+
+#villaform td{
+    font-size: 1.2em;
+}
+
+#chars_left_counter
+{
+    width:300px;
+    color:#AA004E;
+    font-size:0.8em;
+    margin-top: 0px;	
+    text-align:right;
+    padding: 3px;
+}
+
+
+.unathaurorizedmessage{
+    color:white;
+    background-color: #81b4fb;
+    border:1px solid #97c1fd;
+    border-radius:6px;
+    width: 500px;
+    height: auto;
+    margin: 30px 0 0 20px;
+}
+
+.unathaurorizedmessage h2,h3{
+    padding-left: 20px;
+}
+
+.unathaurorizedmessage h1{
+    padding-left: 40px;
+}
+
+.unathaurorizedmessage a
+{
+    cursor: pointer;
+}
+
+.unathaurorizedmessage a:hover{
+    color:#ffd71c;
+}
+
+.updatevilla{
+    width: 50%;
+    height:auto;
+    margin: 20px auto 0 auto;
+    position:none;
+}

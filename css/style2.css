@@ -1,0 +1,226 @@
+body{
+	font-family:Arial;
+	font-size:12px;
+	margin:0;
+}
+
+
+#header{
+	height:45px;
+	background-color: #FEBA02;
+}
+
+.hypericon img{
+	margin:0 0 9px 45px;
+	width:150px;
+	height:48px;
+}
+
+#styles{
+	width:40px;
+	height:40px;
+	margin: 0 0 10px 100px;
+}
+
+.tabs{
+	width:auto;
+	height:300px;
+	position:absolute;
+	margin: 15px 0 0 600px;
+	color:white;
+}
+
+.tabs a{ text-decoration:none; color:white}
+
+.tabs a:hover{ background-color: blue;}
+
+.formsbutton{
+	font-size:1.2em;
+}
+
+.formsbutton a{
+	padding: 13px;	
+}
+
+.formsbutton a:hover{
+	background-color:#013e96;
+	border: thick;
+	border-radius:5px;
+}
+
+.userbutton{
+	font-size:1.2em;
+	color:white;
+	float: right;
+}
+
+.userbutton a{
+	padding:5px;
+	text-decoration:none;
+}
+
+.userbutton a:hover{
+	background-color:#013e96;
+	border: thick;
+	border-radius:5px;
+}
+
+#signupform{
+	margin: 30px 0 0 20px;
+}
+
+.imagesslide{
+	width:100%;
+	margin-top:45px;
+	position: absolute;
+	top:0;
+	left:0;
+	z-index:-2;
+}
+
+.search{
+background-color:#003580;
+margin-top:390px;
+
+left:0;
+right:0;
+height:170px;
+}
+
+.search h2{
+padding-top:30px;
+color: #e9e8e8;
+}
+
+.viewbutton{
+width:20px;
+height:20px;
+margin: 15px 0 0 650px;
+}
+
+.center{
+	width:600px;
+	margin:0 auto;
+}
+
+.results{
+	
+	color:black;
+	clear:both;
+}
+
+.results h2{
+	margin:0 auto;
+	padding-top:50px;
+	width:160px;
+}
+
+.results p{
+margin-right:10px;
+float:right;
+}
+
+.backtotop{
+	float:right;
+	margin-right:10px;
+}
+
+
+.footer{
+	color: white;
+	height:45px;
+	background-color: #FEBA02;
+	clear:both;
+}
+
+	#footer_menu{
+			padding: 10px 0 0 520px;
+			position:absolute;
+			font-family:"Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+
+	}
+		
+		#footer_menu p{ color:white;  }
+		
+		#footer_menu a{
+			text-decoration:none;
+			color:white;
+		}
+
+		#footer_menu a:hover{
+			color: #003580;
+			font-weight:700;
+		}
+
+		
+#design{
+	padding-top:10px;
+	font-family:Georgia, "Bitstream Charter", serif;
+	float:right;
+	margin-right:200px;
+}
+
+
+.left{
+	float:left;
+}
+
+#right{
+	float:right;
+}
+
+#right h2{
+	color:#2828d2;
+}
+
+#right h3{
+	color:black;
+}
+
+#right p{ color:black; padding-right:10px;}
+
+.validate_false{
+	font-family: 'Segoe UI Symbol';
+	color: red;
+	font-size: 1.4em;
+	cursor: default;
+	padding-bottom: 23px;
+}
+
+
+
+
+
+.hellomess{
+	width:500px;
+	margin:0 auto;
+}
+
+.uploadvilla{
+	width: 50%;
+	height:auto;
+	margin: 20px auto 0 auto;
+	position:none;
+}
+
+#villaform{
+	width:550px;
+	border: 1px solid black;
+	border-radius:6px;
+	background-color:#003580;
+}
+
+#villaform td{
+	font-size: 1.2em;
+	color:white;
+}
+
+#chars_left_counter
+{
+	width:300px;
+	color:#AA004E;
+	font-size:0.8em;
+	margin-top: 0px;	
+	text-align:right;
+	padding: 3px;
+}
